@@ -1,0 +1,27 @@
+@import '~react-agenda/build/styles.css';
+@import '~react-datetime/css/react-datetime.css';
+
+
+@font-face {
+font-family: "VWAGTheSans-Bold.otf";
+src: url("/fonts/VWAGTheSans-Bold.otf")format("opentype");
+}
+
+@font-face {
+  font-family: "VWAGTheSans-Italic.otf";
+  src: url("/fonts/VWAGTheSans-Italic.otf")format("opentype");
+  }
+  
+@font-face {
+  font-family: "VWAGTheSans-Light.otf";
+  src: url("/fonts/VWAGTheSans-Light.otf")format("opentype");
+  }
+    
+@font-face {
+  font-family: "VWAGTheSans-Bold.otf";
+  src: url("/fonts/VWAGTheSans-Regular.otf")format("opentype");
+  }
+
+.App {
+  text-align: center;
+}

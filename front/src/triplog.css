@@ -1,0 +1,89 @@
+.triplog_title {
+    font-family: "VWAGTheSans-Bold.otf";
+    color:rgb(162, 30, 77);
+}
+
+.triplog_select {
+    max-width: 500px;
+    margin: auto;
+    justify-content: space-around;
+    
+}
+
+.triplog_card {
+    display:inline-flex;
+    width: 45vw;
+    margin-top: 40px;
+    margin:2%; 
+    font-family: "VWAGTheSans-Bold.otf";
+    color:rgb(76, 83, 86);
+    border-style: solid;
+    border-width: 1px;
+    border-radius:3px;
+    justify-content:space-around;
+}
+
+.triplog_driver_bold {
+    font-weight: 700;
+    color: black;
+}
+
+.triplog_driver_info {
+    font-weight: 700;
+    color: black;
+}
+
+.triplog_reservation_bold {
+  
+    font-weight: 700;
+    color: black;
+}
+
+.triplog_destination_bold {
+    
+    font-weight: 700;
+    color: black;
+}
+
+.triplog_start_bold {
+  
+    font-weight: 700;
+    color: black;
+}
+
+.triplog_end_bold {
+
+    font-weight: 700;
+    color: black;
+}
+
+.triplog_card button a{
+    color:black;
+}
+
+.triplog_card button {
+    width:40px;
+    margin-right:0;
+    border-radius:3px;
+    background-color:rgb(162, 30, 77);
+}
+
+.driver_select {
+    height:30px;
+    border-radius:3px;
+}
+
+
+@media only screen and (max-width: 768px) {
+    .triplog_card {
+        display:flex;
+        flex-wrap:wrap;
+        width:90%;  
+        float:left;
+        padding:10px;
+        margin:5px;      
+    }
+
+   
+  
+}

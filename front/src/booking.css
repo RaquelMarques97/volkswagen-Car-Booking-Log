@@ -1,0 +1,39 @@
+.booking-container h1 {
+    margin-top:20px;
+    font-size:35px;
+}
+
+.booking_title {
+    font-family: "VWAGTheSans-Bold.otf";
+    color:rgb(162, 30, 77);
+   
+}
+
+.booking_subtitle {
+    font-family: "VWAGTheSans-Bold.otf";
+    color:rgb(76, 83, 86);
+}
+
+.booking_label {
+    font-family: "VWAGTheSans-Bold.otf";
+    color:rgb(76, 83, 86);
+}
+
+/* changes to the agenda's CSS */
+.agenda__cell.--time {
+    font-family: "VWAGTheSans-Bold.otf";
+    color:rgb(76, 83, 86);
+}
+
+.agenda__table.\--body {
+    height: 100%;
+}
+
+.agenda__cell.--time-now {
+    font-family: "VWAGTheSans-Bold.otf";
+    color: rgb(162, 30, 77);
+}
+
+.agenda__cell.--head {
+    color: rgb(95, 25, 57);
+}

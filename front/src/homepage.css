@@ -1,0 +1,59 @@
+.home {
+    text-align:center;
+}
+
+.home_title {
+    margin-top:30px;
+    font-family: "VWAGTheSans-Bold.otf";
+    color:rgb(162, 30, 77);
+}
+
+.home_list {       
+    list-style: none;
+    padding-top:20px;
+    padding-left:0; 
+ 
+    
+} 
+
+
+.home_list li {
+    padding:20px;
+    background-color:rgb(162, 30, 77);
+    font-weight: bold;
+    margin:20px;
+    width:300px;
+    border-radius: 3px;
+   
+    
+}
+
+
+.home_list div {
+    margin-top:30px;
+    display:flex;
+    width:100%;
+    justify-content:center;
+  
+   
+    
+}
+
+.home_link {   
+    color:#A8ADB3;
+    font-family: "VWAGTheSans-Light.otf";
+    font-size:30px;
+    text-decoration:none;
+   
+      
+}
+
+.home_link:hover{
+    list-style-type: none;
+    color:#808080;
+    font-style: none;
+}
+
+
+
+

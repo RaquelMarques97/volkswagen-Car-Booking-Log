@@ -1,0 +1,169 @@
+/* navbar-container is logo + navbar */
+.logo {
+    background-color:white;
+}
+
+.active {
+  background-color:rgb(162, 30, 77) ;
+}
+
+.active p {
+    color:white;
+}
+
+.navbar-container {
+    display: flex;
+    align-items: center;
+}
+  
+.navbar-container div {
+    padding: 2%;
+    height: 65px;
+
+}
+
+.VWDS-logo {
+    width: auto;
+    height: 100%;
+}
+
+.navbar {
+    width: 100%;
+    text-align: center;
+
+}
+.navbar a {
+    width: 31%;
+    height: 100%;
+    float: left;
+    color: rgb(162, 30, 77);
+    border-style: solid;
+    border-width: 0.5px;
+    border-radius: 3px;
+    margin: auto 5px;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+}
+.navbar a:hover {
+    color: white;
+    background-color: rgb(162, 30, 77);
+}
+
+ 
+.navbarlink {
+    margin: auto;
+    
+}
+
+.navbarlink2 {
+    margin: auto;
+}
+
+
+
+
+@media only screen and (max-width: 910px) {
+    .navbarlink {
+        width: 220px;
+        margin:0;
+    }
+    
+    .navbarlink2 {
+        width: 40%;
+        margin:0;
+    }
+
+    .navbarlink2 a {
+        flex-wrap: nowrap;
+        width:70%;
+    }
+
+   
+    .navbar a{
+       height:40%;
+       width:50%;
+       float:right;
+       justify-content: center;
+       padding:0;
+    }
+
+    .triplog_card {
+        width:80%;
+    }
+
+    .triplog_select {
+        text-align: center;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .VWDS-logo {
+        width: 220px;
+        
+    }
+
+    .navbar {
+        height: 25px;
+        width:80vw;
+    }
+
+    .navbar a{
+        height:40%;
+        width:50%;
+        float:right;
+        justify-content: center;
+        padding:0;
+     }
+
+    .navbarlink {
+        padding-top: 10px;
+        width: 20%;
+    }
+
+    .navbarlink2 {
+        padding-top: 10px;
+        width: 70%;
+    }
+
+    .triplog_card {
+        width:80%;
+    }
+    .triplog_select {
+        text-align: center;
+    }
+}
+
+@media only screen and (max-width: 430px) {
+    .VWDS-logo {
+        width: 120px;
+        height: auto;
+    }
+    .navbar {
+        height: 20px;
+    }
+
+    .navbarlink {
+        padding-top: 5px;
+        width: 20%;
+    }
+
+    .navbar a{
+        height:40%;
+        width:50%;
+        float:right;
+        justify-content: center;
+        padding:0;
+     }
+    .navbarlink2 {
+        padding-top: 5px;
+        width: 70%;
+    }
+
+    .triplog_card {
+        width:80%;
+    }
+    .triplog_select {
+        text-align: center;
+    }
+}

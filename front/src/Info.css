@@ -1,0 +1,138 @@
+.info {
+    text-align: center;
+    font-family: "VWAGTheSans-Bold.otf";
+  
+  }
+
+  .info h4 {
+      width:40vw;
+  }
+
+.info h2 {
+    color:rgb(162, 30, 77);
+    padding-bottom:50px;
+    margin-top:0px;
+}
+.event {  
+    display:flex;
+    flex-direction:column;
+    padding:10px;
+}
+
+.name-destination {
+    display:flex;
+    text-align:left;
+}
+.name {
+    width:40vw;
+    padding:10px;
+    margin-left:10px;
+    border-radius: 3px;
+}
+
+.destination {
+    width:40vw;
+    padding: 10px;
+    margin-left:10px;
+    border-radius: 3px;
+}
+
+.plate{
+    float:center;
+}
+
+.plate select{
+    display:flex;
+    border-radius:3px;
+    height:30px;
+    background-color:rgb(162, 30, 77);
+    color:white;
+  
+}
+
+.start label {
+padding:10px;
+font-weight: bold;
+}
+
+.end label {
+    padding:10px;
+    font-weight: bold;    
+    }
+
+.start {
+    float:left;
+    margin-right:100px;
+    width:500px;
+    }
+
+.start input{
+    padding:13px;
+    border-radius:3px;
+   
+}
+
+.end {
+    float:left;
+}
+
+.end input{
+    padding:10px;
+    border-radius:3px;
+    margin-bottom:20px;
+  
+}
+
+.modal_save  {
+    padding:10px;
+    
+}
+
+@media only screen and (max-width: 840px) {
+    .modal-content {  
+       width:80vw;
+       display:flex;
+       flex-wrap:wrap;
+       flex-direction:column;  
+        
+     
+    }
+    .event {
+        width:50px;
+        padding:0;
+    }
+
+    .name-destination {
+        display:flex;
+        flex-wrap:wrap;
+    }
+
+    .start {
+        width:150px;
+    }
+
+    .end {
+        width:150px;
+    }
+
+    .modal_save {
+        width:150px;
+      
+    }
+
+    .modal_save button{
+        border-radius:3px;
+        background-color:black;
+        color:white;
+        font-weight:bold;
+    }
+
+    .info h2 {
+        padding:0;
+    }
+
+    .info {
+        text-align:left;
+    }
+
+}
