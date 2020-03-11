@@ -1,5 +1,5 @@
 
-# Car-Booking-Log
+# Car Booking Log
 
 Car-Nooking-Log is a React App with frontend and backend made in a two day hackathon for Volkswagen. 
 It was built so that the Volkswagen Lisbon office workers could book the service cars and register the milage from the start 
