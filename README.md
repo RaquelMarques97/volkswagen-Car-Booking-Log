@@ -5,7 +5,7 @@ Car-Nooking-Log is a React App with frontend and backend made in a two day hacka
 It was built so that the Volkswagen Lisbon office workers could book the service cars and register the milage from the start 
 till the end of the trip. There also is a log at the end with that information.
 
-The backend is built with Node.JS, Express.JS and mySQL. The frontend is built with React.JS.
+The backend is built with Node.JS, Express.JS and mySQL. The frontend is built with React.JS and CSS.
 
 ## Getting Started
 
