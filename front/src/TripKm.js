@@ -1,5 +1,7 @@
 import React , { useState }  from 'react';
 import Button from './Button';
+import './triplog.css';
+import './TripKm.css';
 
 
 const TripKm = (props) => {
@@ -62,19 +64,19 @@ const TripKm = (props) => {
     }
 
     return(
-        <>
-            <h1>Start Trip</h1>
-            <div>Destination: {trip.destination}</div>
+        <div className='enterKm'>
+            <h1>Trip info</h1>
+            <div className='destinationKm'>Destination: {trip.destination}</div>
             
             <form onSubmit={handleSubmit}>
-                <div>Enter {stage} Kms</div>
+                <div className='enter'>Enter {stage} Kms</div>
                 <input type="text" value={km} name={`${stage}_km`} onChange={updateKm}/>
                 <Button type='submit'>
                     Save
                 </Button>
             </form>
             
-        </>
+        </div>
     )
 }
 
